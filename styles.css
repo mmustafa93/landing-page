@@ -14,6 +14,7 @@ nav {
     justify-content: center; /* Center the nav-container */
     height: 60px;
     margin: 0;
+    position: fixed;
 }
 
 /* Container for Logo and Links */
@@ -93,4 +94,31 @@ nav {
 .hero-image {
     width: 25%; /* Adjust logo size */
     height: auto;
+}
+
+.benefits-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+h4 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.benefits-grid {
+    width: 50%;
+    display: flex;
+}
+
+.benefit-icon {
+    width: 80%; /* Adjust logo size */
+    height: auto;
+}
+
+.benefit-item > p {
+    width: 80%;
 }
