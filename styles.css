@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Navbar */
+nav {
+    background-color: #1f2937; /* Dark background */
+    width: 100%; /* Full-width navbar */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the nav-container */
+    height: 60px;
+    margin: 0;
+}
+
+/* Container for Logo and Links */
+#nav-container {
+    width: 90%; /* Controls content width of navbar */
+    max-width: 1000px; /* Optional: Limits max-width */
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: space-between; /* Logo on left, links on right */
+    align-items: center; /* Center vertically */
+}
+
+/* Logo */
+.nav-logo {
+    width: 100px; /* Adjust logo size */
+    height: auto;
+}
+
+/* Navigation Links Container */
+.nav-links {
+    display: flex; /* Flexbox for links */
+    gap: 20px; /* Space between links */
+}
+
+/* Navigation Links */
+.nav-link {
+    font-size: 18px;
+    color: #E5E7EB; /* Light text */
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect for Links */
+.nav-link:hover {
+    color: #F59E0B; /* Accent color on hover */
+}
+
+.hero-section {
+    background-color: #1f2937; /* Dark background */
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-container {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero-text {
+    width: 25%;
+}
+
+.hero-text > h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8
+}
+
+.hero-text > p {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.hero-button {
+    background-color: #3882f6;
+    width: 150px;
+    color: #E5E7EB;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-image {
+    width: 25%; /* Adjust logo size */
+    height: auto;
+}
